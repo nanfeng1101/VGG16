@@ -14,7 +14,7 @@ Download the vgg16_weights and move it to working directory
 Download a picture that contains a dog, move to working directory and rename it as 'dog.jpg'
 
 ##Notation
-The pre_train weight we download is based on theano,not tensorflow.
-so i firstly set the image dimension ordering using ```K.set_image_dim_ordering('th')``` in vgg16.py as that setting is different between tensorflow and theano.
+The pre_train weight we download is based on theano,not tensorflow.  
+So i firstly set the image dimension ordering using ```K.set_image_dim_ordering('th')``` in vgg16.py as that setting is different between tensorflow and theano.
 
 ##Vgg structure overview
