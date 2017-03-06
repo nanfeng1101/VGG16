@@ -5,7 +5,7 @@ A pre-train model like ResNet, is ususally desired if we use above methods.
 
 So, in this experiment, I will use a pre-train vgg16 model to predict a dog for practice.
 
-##expriment preparation
+##Expriment preparation
 Experiment environment: Ubuntu14.04, tensorflow 1.0.0, keras1.2.2  
 
 Download the vgg16_weights and move it to working directory
