@@ -6,7 +6,7 @@ Created on Sun Mar  5 17:10:37 2017
 @author: zjc
 """
 import keras.backend as K
-import numpy as np
+import cv2, numpy as np
 from PIL import Image
 from keras.models import Sequential
 from keras.layers import Convolution2D, ZeroPadding2D, MaxPooling2D
@@ -84,7 +84,7 @@ sgd = SGD(lr=0.1, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(optimizer=sgd, loss='categorical_crossentropy')
 
 if __name__ == "__main__":
-    im = Image.open('dog.jpg').resize((224, 224))
+    im = cv2.resize(cv2.imread('cat.jpg'), (224, 224)).astype(np.float32)
     im[:,:,0] -= 103.939
     im[:,:,1] -= 116.779
     im[:,:,2] -= 123.68
