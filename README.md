@@ -8,7 +8,8 @@ So, in this experiment, I will use a pre-train vgg16 model to predict a dog for 
 ##expriment preparation
 Experiment environment: Ubuntu14.04, tensorflow 1.0.0, keras1.2.2  
 
-Download the vgg16_weights and move it to working directory(URL:https://docs.google.com/uc?id=0Bz7KyqmuGsilT0J5dmRCM0ROVHc&export=download)  
+Download the vgg16_weights and move it to working directory
+(URL:https://docs.google.com/uc?id=0Bz7KyqmuGsilT0J5dmRCM0ROVHc&export=download)  
 
 Download a picture that contains a dog, move to working directory and rename it as 'dog.jpg'
 
