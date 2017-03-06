@@ -22,3 +22,4 @@ So i firstly set the image dimension ordering using ```K.set_image_dim_ordering(
 
 ![](https://github.com/j-c-zhang/VGG16/blob/master/picture/Vgg.jpg)  
 
+
