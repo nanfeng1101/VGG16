@@ -6,7 +6,7 @@ A pre-train model like vgg16 and ResNet, is ususally desired if we use above met
 So, in this experiment, I will use a pre-train vgg16 model to predict a cat for practice.
 
 
-To learn more about vgg16, you can refer to 
+To learn more about vgg16, you can refer to    
 《Very Deep Convolutional Networks for Large-Scale Image Recognition》： https://arxiv.org/abs/1409.1556
 
 ## Experiment preparation
